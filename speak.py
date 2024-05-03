@@ -15,6 +15,3 @@ class Speech():
     def speak(self, speech):
         engine.say(speech)
         engine.runAndWait()
-
-
-
